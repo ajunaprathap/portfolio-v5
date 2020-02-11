@@ -349,7 +349,7 @@ nav .wrapper {
 }
 .nav-links{
   display: flex;
-  width: 30%;
+  width: 40%;
   justify-content: space-between;/* changed from space-around */
   list-style: none;
 }
@@ -477,7 +477,7 @@ nav .wrapper {
   text-decoration: none;
 }
 @media (min-width: 600px) {
-  .footer-button{
+  .footer-button {
     max-width: 225px;
   }
 }
@@ -493,4 +493,10 @@ ul.icons{
 .copyright {
   margin-left: auto;
   align-self: center;
+}
+.no-scroll {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
 }

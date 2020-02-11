@@ -2,8 +2,13 @@ const navSlide = () => {
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('.nav-links');
 const navLinks = document.querySelectorAll('.nav-links li');
-const body = document.querySelectorAll('body');
+const container = document.querySelectorAll('.container') [0];
 
+const toggleClasses = () => {
+  //Burger animation
+  burger.classList.toggle('toggle');
+  container.classList.toggle('no-scroll');
+}
 
   burger.addEventListener('click', () => {
     //Toggle Nav
@@ -17,12 +22,14 @@ const body = document.querySelectorAll('body');
       } else {
         link.style.animation = `navLinkFade 0.5s ease forwards`;
       }
+    link.addEventListener('click', () => {
+      if (nav.classList.contains('nav-active')) {
+        toggleClasses ();
+      }
     });
-    //Burger animation
-    burger.classList.toggle('toggle');
-    body.classList.toggle('no-scroll');
   });
-
+  toggleClasses();
+});
 }
 
 navSlide();
