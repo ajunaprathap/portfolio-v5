@@ -16,6 +16,11 @@ body{
   background-color: #fff5fd;
   font-family: "Open Sans", sans-serif;
 }
+.container{
+ overflow-x: hidden;
+ width: 100vw;
+ position: relative;
+}
 
 
 /* MOBILE */
@@ -383,9 +388,7 @@ nav .wrapper {
 /* MOBILE*/
 @media screen and (max-width:768px){
 
-  body{
-   overflow-x: hidden;
-  }
+
 
   .nav-links{
     position: absolute;

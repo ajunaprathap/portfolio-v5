@@ -8,12 +8,12 @@ const toggleClasses = () => {
   //Burger animation
   burger.classList.toggle('toggle');
   container.classList.toggle('no-scroll');
+
+  //Toggle Nav
+  nav.classList.toggle('nav-active');
 }
 
   burger.addEventListener('click', () => {
-    //Toggle Nav
-    nav.classList.toggle('nav-active');
-
     //Animate Links
     navLinks.forEach((link, index) => {
 
@@ -22,14 +22,13 @@ const toggleClasses = () => {
       } else {
         link.style.animation = `navLinkFade 0.5s ease forwards`;
       }
-    link.addEventListener('click', () => {
-      if (nav.classList.contains('nav-active')) {
-        toggleClasses ();
-      }
+      link.addEventListener('click', () => {
+        if (nav.classList.contains('nav-active')) {
+          toggleClasses ();
+        }
+      });
     });
-  });
   toggleClasses();
-});
+ });
 }
-
 navSlide();
