@@ -496,6 +496,12 @@ ul.icons{
   margin-left: auto;
   align-self: center;
 }
+@media (max-width: 400px) {
+  .copyright {
+    padding-left: 2em;
+  }
+}
+
 .no-scroll {
   width: 100vw;
   height: 100vh;
