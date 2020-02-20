@@ -16,12 +16,6 @@ const toggleClasses = () => {
   burger.addEventListener('click', () => {
     //Animate Links
     navLinks.forEach((link, index) => {
-
-      if(link.style.animation){
-        link.style.animation = '';
-      } else {
-        link.style.animation = `navLinkFade 0.5s ease forwards`;
-      }
       link.addEventListener('click', () => {
         if (nav.classList.contains('nav-active')) {
           toggleClasses ();
