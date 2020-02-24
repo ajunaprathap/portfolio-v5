@@ -22,7 +22,6 @@ body{
  position: relative;
 }
 
-
 /* MOBILE */
 .wrapper{
   margin-right: auto;
@@ -379,6 +378,10 @@ nav .wrapper {
   background-color: #ffffff;
   margin: 5px;
 }
+
+.nav-links a:hover{color:#F280E7;} /* mouse over */
+.nav-links a:active{ color:#F280E7; } /* selected */
+
 
 @media screen and (max-width:1024px){
   .nav-links{
