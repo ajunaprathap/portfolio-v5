@@ -21,8 +21,6 @@ body{
  width: 100vw;
  position: relative;
 }
-
-/* MOBILE */
 .wrapper{
   margin-right: auto;
   margin-left:  auto;
@@ -41,13 +39,11 @@ body{
 .case-study main .wrapper, .about-me-page main .wrapper{
   max-width: 800px;
 }
-
-/* Introduction*/
+/* Introduction Section */
 .introduction {
   background-color: #2C155B;
   color: #ffffff;
 }
-
 .content {
   width: 100%;
 }
@@ -64,7 +60,6 @@ body{
     width: 50%;
   }
 }
-
 .h1-merriweather {
   font-size: 3rem;
   font-family: 'Merriweather', serif;
@@ -100,7 +95,6 @@ body{
 .illustration {
   display: none;
 }
-
 @media (min-width: 600px) {
   .illustration {
     display:block;
@@ -143,7 +137,6 @@ body{
   font-size: 1em;
   opacity: 0.5;
 }
-
 /* DESKTOP */
 @media (min-width: 600px) {
   .homepage-para {
@@ -259,7 +252,6 @@ img.phone {
   margin: 3rem 0;
   border-bottom: 2px solid #9f05fa;
 }
-
 h3 {
   font-size: 1rem;
   font-weight: bold;
@@ -287,13 +279,12 @@ img.userflow {
 .userflow-for-mobile {
   display: none;
 }
-
+/* DESKTOP */
 @media (min-width: 600px) {
   .userflow-for-mobile {
     display:flex;
   }
 }
-
 .indent2 {
   line-height: 1.75rem;
   margin-left: 5rem;
@@ -354,16 +345,14 @@ nav .wrapper {
 .nav-links{
   display: flex;
   width: 40%;
-  justify-content: space-between;/* changed from space-around */
+  justify-content: space-between;
   list-style: none;
 }
-
 .nav-links a{
   color:#ffffff;
   text-decoration: none;
   font-size: 1.125rem;
 }
-
 .burger{
   display: none;
   cursor:pointer;
@@ -371,18 +360,14 @@ nav .wrapper {
   margin:5px;
   transition: all 0.5s ease;
 }
-
 .burger div{
   width: 25px;
   height: 3px;
   background-color: #ffffff;
   margin: 5px;
 }
-
 .nav-links a:hover{color:#F280E7;} /* mouse over */
 .nav-links a:active{ color:#F280E7; } /* selected */
-
-
 @media screen and (max-width:1024px){
   .nav-links{
     width: 40%;
@@ -390,9 +375,6 @@ nav .wrapper {
 }
 /* MOBILE*/
 @media screen and (max-width:768px){
-
-
-
   .nav-links{
     position: absolute;
     right: 0px;
@@ -437,7 +419,6 @@ nav .wrapper {
     transform: translateX(0px);
   }
 }
-
 .toggle .line1{
   transform: rotate(-45deg) translate(-5px,6px);
 }
@@ -466,7 +447,6 @@ nav .wrapper {
   width: 30px;
   margin : 5px;
 }
-
 .footer-button {
   display: block;
   font-family: 'Open Sans', sans-serif;
@@ -504,7 +484,6 @@ ul.icons{
     padding-left: 2em;
   }
 }
-
 .no-scroll {
   width: 100vw;
   height: 100vh;
