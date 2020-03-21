@@ -4,28 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ajuna Vadakkumpuram Prathap UI/UX Designer - Project1 </title>
+    <link rel="shortcut icon" type="image/png" href="pictures/favicon.png" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
    </head>
 
    <body class="case-study">
      <div class="container">
 
-    <!-- Nav bar-->
+    <!-- Navigation bar-->
     <nav>
       <div class="wrapper">
-        <a href="index.html"><img class="my-logo" src="pictures/logo.png" alt="logo" /></a>
+        <a href="index.html"><img class="my-logo" src="pictures/logo.png" alt="Image of Your Space logo" /></a>
 
         <ul class="nav-links">
+          <li><a href="index.html#yourspace" class="active">Work</a></li>
           <li><a href="aboutme.html">About</a></li>
-          <li><a href="index.html#yourspace">Work</a></li>
           <li><a href="pictures/myresume.pdf" target="_blank">Resume</a></li>
-          <li><a href="mailto:ajunaprathap@gmail.com" target="_blank">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
 
-        <!--<img class="burger" src="pictures/burger.svg" alt="hamburher menu" />-->
         <div class="burger">
           <div class="line1"></div>
           <div class="line2"></div>
@@ -33,16 +33,17 @@
         </div>
      </div>
     </nav>
-
    <main>
+
     <!--Overview-->
-    <header class="opening-page"> <!--Not using this class name in css*/-->
+    <header class="opening-page section-padding">
      <div class="wrapper">
         <section class="overview">
-             <img class="overview-pic" src="pictures/Blue_logo.png" alt="Your Space Logo">
-             <p>Your Space is a cloud storage application that can help users create, upload,organize and store their data,
-                    as well as collaborate with others in a simple and effective way.</p>
-             <img class="desktop" src="pictures/desktoppic.png" alt="Your Space desktop picture">
+             <img class="overview-pic" src="pictures/Blue_logo.png" alt="Image of Your Space Logo">
+             <img class="desktop" src="pictures/desktoppic.png" alt="Image of desktop screen showing files and folders organized within it">
+             <p class="paragraph-holder  paragraph-holder-center center-align center-align-exception add-padding-top">Your Space is a cloud storage application
+               that can help users create, upload, organize and store their data,
+               as well as collaborate with others in a simple and effective way.</p>
              <a href="https://www.figma.com/proto/6jFL60EaU1ScIII5zreZ25/Desktop-V4?node-id=162%3A11&viewport=2894%2C4894%2C0.5&scaling=min-zoom"
              target="_blank" class="case-study-button">VIEW PROTOTYPE</a>
        </section>
@@ -52,284 +53,281 @@
     <!-- PROBLEM AND SOLUTION-->
     <section class="problem-with-solution">
      <div class="wrapper">
-       <div class="problem-and-solution">
-         <h2 class="process">Problem</h2>
+       <div class="problem-and-solution section-padding bottom-padding">
+        <div class="paragraph-holder">
+         <h2 class="process center-align">Problem</h2>
           <p>In today’s world cloud service is the most suitable option to store data online digitally. Currently there are multiple
            cloud storage apps available to users but most of these platforms have confusing task management solutions and cluttered dashboards.
            They lack simplicity and visibility when users try to create, organize and search for specific stored content.</p>
-         <h2 class="process">Solution</h2>
+         <h2 class="process center-align">Solution</h2>
           <p>Your Space aims to create a simple and intuitive user-friendly experience for users looking to create, upload, organize and share
            content with others. Users will not only have the ability to save any kind of content, all in one place but can also create their
            own content, organize their files and share it with others.</p>
-          <img class="phone" src="pictures/phone.png" alt="Phone image">
+       </div>
+          <img class="phone" src="pictures/phone.png" alt="Image of a phone displaying the landing page for Your Space">
        </div>
      </div>
     </section>
 
     <!-- PROCESS-->
     <section class="the-process">
-     <div class="wrapper">
       <div class="myprocess">
-       <h2 class="process">Process</h2>
 
-           <!--User Survey-->
-            <section class="user-survey">
+           <!--User Survey Section-->
 
-                  <h2 class="process-steps">User Survey</h2>
-                  <p>I started my research with a survey posted online to multiple media platforms, public forums and email contacts. I wanted to understand
-                   what people were looking for in a cloud file-storage and sharing application. I also wanted to understand their frustrations and what they
-                   currently use for storing information online.</p>
-                  <h3>By analysing the results of my user survey I understood that:</h3>
-                    <ul class="indent">
-                      <li>The ability to save information was the feature that users liked the most </li>
-                      <li>70% users felt that being able to upload content from the web or their mobile was important to them</li>
-                      <li>65% users felt that being able to create content was important to them </li>
-                      <li>55% users felt that being able to organize the data they saved was very useful</li>
-                      <li>To 70% of my participants being able to share or collaborate with others was important</li>
-                    </ul>
-                  <h3>When asked what they disliked the most about the current tools they said:</h3>
-                    <ul class="indent">
-                      <li>“ Difficulty in organizing content “</li>
-                      <li>“ Difficulty to access stored documents ”</li>
-                    </ul>
-                  <h3>The features users felt could be improved or added were:</h3>
-                    <ul class="indent">
-                      <li>Ability to search storage for specific stored content</li>
-                      <li>Ability to manage/organize data</li>
-                      <li>Simple, straightforward and fun looking UI</li>
-                    </ul>
-                  <h3>What I learned from the research:</h3>
-                    <p>The user survey helped me understand that users are benefited by cloud storage services and they are in need of an application
-                         that would help them perform the following tasks intuitively:</p>
-                    <ol class="indent">
-                      <li>Save content that has been uploaded or created</li>
-                      <li>Organize content</li>
-                      <li>Share and Collaborate with others</li>
-                      <li>Search storage</li>
-                    </ol>
-            </section>
+            <section class="user-survey section-padding">
+              <div class="wrapper flex-wrapper-desktop">
+                <div class="paragraph-holder"></div>
+                <div class="paragraph-holder">
+                   <h2 class="process center-align-mobile-tablet">Process</h2>
+                   <h2 class="process-steps">User Survey</h2>
+                   <p>I started my research with a survey posted online to multiple media platforms, public forums and email contacts. I wanted to understand
+                     what people were looking for in a cloud file-storage and sharing application. I also wanted to understand their frustrations and what they
+                     currently use for storing information online.</p>
+                   <h3 class="sub-heading">By analysing the results of my user survey I understood that:</h3>
+                      <ul class="survey-highlights">
+                        <li><span style="font-size:1.5rem;font-weight:bold">70%</span> users felt that being able to upload content from the web or their
+                          mobile was important to them</li>
+                        <li><span style="font-size:1.5rem;font-weight:bold">65%</span>  users felt that being able to create content was important to them </li>
+                        <li><span style="font-size:1.5rem;font-weight:bold">55%</span>  users felt that being able to organize the data they saved was very useful</li>
+                        <li><span style="font-size:1.5rem;font-weight:bold">70%</span>  of my participants felt that being able to share or collaborate with others
+                          was important</li>
+                      </ul>
+                   <p class="add-padding-top-survey">When asked what they disliked the most about the current tools, majority of the user survey
+                      participants responded that the issue they faced the most was
+                      trying to keep all their files and work organized. They also found it difficult to access stored content easily.</p>
+                </div>
+            </div>
+           </section>
 
             <!-- User Personas-->
 
-            <section class="user-personas">
-              <div class="wrapper">
+            <section class="user-personas  section-padding">
+              <div class="wrapper flex-wrapper-desktop flex-wrapper-center">
+                <div class="paragraph-holder">
                  <h2 class="process-steps">User Personas</h2>
-                   <p>At this point I had a better idea of who my target audience were, so based on this I created two user personas.</p>
-                   <img class="image" src="pictures/Personas.png" alt="Personas">
-                  <h4 class="links"> <a href="pictures/personas.pdf" target="_blank">View Personas</a> </h4>
-              </div>
-           </section>
+                   <p>I interviewed survey respondents to dig deeper into their responses and clarify my understanding of
+                     the problem and my potential solution. These interviews, helped me get a better idea of who my target audience
+                     were. So based on this I created two user personas.</p>
+                   <img class="image-padding-left show-mobile image-center-mobile-tablet" src="pictures/mariapersona.png" alt="Image of Maria's
+                   Persona highlighting her goals and frustrations">
+                   <a href="pictures/personas.pdf" target="_blank" class="case-study-button">VIEW PERSONAS</a>
+                </div>
+                   <img class="image-padding-left show-desktop" src="pictures/mariapersona.png" alt="Image of Maria's Persona highlighting
+                   her bio, motivations, goals and frustrations">
+             </div>
+            </section>
 
            <!--Competitive Analysis-->
 
-           <section class="competitive-analysis">
-             <div class="wrapper">
-              <h2 class="process-steps">Competitive Analysis</h2>
-                 <p>I then started to look at some of the top cloud services on the market today like Dropbox, Google Drive and OneDrive to study their
-                 strengths, weaknesses, opportunities and threats. I realized that all these products have their own pros and cons. Example, Dropbox
-                 has a very simple and user friendly interface but the low visibility of file types on their dashboard is frustrating.
-                 Similarly Google Drive has a very simple and intuitive design but there is no way to keep track of the files users have shared
-                 in the past. In case of OneDrive, OneDrive has a very confusing file sharing process. These were all opportunities I saw for my product.
-                 Apart from these, I also noticed that all three of them used similar iconography and also had blue as their primary color. So for my product I
-                 decided to use a similar visual pattern so that my users could easily familiarise with my product.</p>
-                 <img class="competitive-analysis-pic" src="pictures/competitive-analysis.png" alt="Competitors logo">
-                 <h4 class="links"> <a href="pictures/competitive-analysis.pdf" target="_blank">Competitive Analysis</a> </h4>
-            </div>
-          </section>
+          <section class="section-padding bottom-padding">
+            <div class="wrapper">
+              <div class="paragraph-holder paragraph-holder-center">
+               <h2 class="process-steps center-align-exception">Competitive Analysis</h2>
+                  <p>I then collected and compared data of three of the top cloud services on the market today like Dropbox, Google Drive and OneDrive. Studying their
+                  strengths and weaknesses helped me realized that all these products have their own pros and cons. I also noticed that
+                  all three of them used similar icons and also used blue as their primary color. So for my product I
+                  decided to use a similar visual pattern so that my users could easily familiarise with my product.</p>
+             </div>
+                <img class="top-bottom-padding" src="pictures/competitiveanalysis.png" alt="Image showing 3 phone screens (Google Drive, Drop box and Onedrive)">
+                <a href="pictures/competitive-analysis.pdf"
+                target="_blank" class="case-study-button button-center">VIEW COMPETITIVE ANALYSIS</a>
+           </div>
+         </section>
 
            <!--User Stories-->
 
-           <section class="user-stories">
-             <div class="wrapper">
-               <h2 class="process-steps">User Stories</h2>
-                 <p>Next I determined user stories and prioritized them based on my understanding of my users needs which I had previously collected from the user survey.</p>
-                   <ul class="indent">
-                     <li>As a cloud storage user I want to be able to sign in to my account - <span style="color:#9F05FA">High</span></li>
-                     <li>As a cloud storage user I want to be able to create folders , document, slides, spreadsheets etc - <span style="color:#9F05FA">High</span></li>
-                     <li>As a cloud storage user I want to upload content from a computer or mobile device - <span style="color:#9F05FA">High</span></li>
-                     <li>As a cloud storage user I want to be able to organize content using folders - <span style="color:#9F05FA">High</span></li>
-                     <li>As a cloud storage user I want to share documents, photos, videos or images with someone else - <span style="color:#9F05FA">High</span></li>
-                     <li>As a cloud storage user I want to be able to search my storage for specific content - <span style="color:#9F05FA">High</span></li>
-                     <li>As a cloud storage user I want to have more storage capacity - Medium</li>
-                     <li>As a cloud storage user I want automatic sync - Medium</li>
-                     <li>As a cloud storage user I want to be able to cast the app to TV - Low</li>
-                     <li>As a cloud storage user I want collaborative editing - Low</li>
-                     <li>As a cloud storage user I want screenshare capabilities - Low</li>
-                   </ul>
-             </div>
+           <section class="user-stories section-padding bottom-padding">
+             <div class="wrapper flex-wrapper-desktop flex-wrapper-center">
+                <img class="image-padding-right show-desktop" src="pictures/userstories.png" alt="Picture of user stories where tasks have been prioritized">
+               <div>
+                  <h2 class="process-steps user-stories-center">User Stories</h2>
+                   <p>After compiling a list of tasks that users would want to accomplish with my product, I prioritized those essential for
+                     a minimum viable product. I prioritized them based on my understanding of my users
+                     needs which I had previously collected from the user survey.</p>
+                   <img class="show-mobile" src="pictures/userstories.png" alt="Picture of user stories where tasks have been prioritized">
+              </div>
+            </div>
            </section>
 
            <!--User Flows-->
 
-           <section class="user-flows">
-             <div class="wrapper">
-              <h2 class="process-steps">User Flows</h2>
-               <p>I then created user flows for all the high priority tasks.</p>
-                 <div class="user-flow-flex">
-                    <img class="userflow" src="pictures/create-content.png" alt="User flow for creating content">
-                    <img class="userflow userflow-for-mobile" src="pictures/upload-content.png" alt="User flow for uploading content">
-                  </div>
-                    <h4 class="links"> <a href="pictures/userflows.pdf" target="_blank">View All User Flows</a> </h4>
+           <section class="section-padding bottom-padding">
+             <div class="wrapper flex-wrapper-desktop flex-wrapper-center">
+               <div class="paragraph-holder">
+                  <h2 class="process-steps">User Flows</h2>
+                  <p>I then converted the users stories that I had determined into user flows so that I could visualize how
+                    the user would accomplish those stories with my product.
+                    I wanted to be sure that my users could accomplish their tasks with minimum views and minimum clicks.  </p>
+                  <img class="userflow show-mobile image-center-mobile-tablet" src="pictures/upload-content.png" alt=" Image of user
+                  flows for uploading content">
+                  <a href="pictures/userflows.pdf" target="_blank" class="case-study-button">VIEW USER FLOWS</a>
+                </div>
+                <div class="user-flow-flex image-padding-left">
+                  <img class="userflow show-desktop" src="pictures/create-content.png" alt="Image of user flow for creating content">
+                  <img class="userflow show-desktop" src="pictures/upload-content.png" alt=" Image of user flows for
+                   uploading content">
+                </div>
              </div>
            </section>
 
            <!--Wireframes-->
 
-           <section class="wireframes">
+           <section class="wireframes section-padding bottom-padding">
              <div class="wrapper">
-               <h2 class="process-steps">Wireframes</h2>
-                 <p>My next step was to create wireframes so that I could visualize all the abstract ideas and concepts that had been outlined so far.
-                   For this I initially sketched few layouts for my design. Several iterations were made to my initial sketches to improve my design.
-                   Once my sketches were finalized I quickly converted them to digital wireframes using the Figma tool. </p>
-                 <img class="image" src="pictures/wireframes.png" alt="Wireframes">
+              <div class="paragraph-holder paragraph-holder-center">
+               <h2 class="process-steps center-align-exception">Wireframes And Usability Testing</h2>
+                 <p class="bottom-padding-para">My next step was to create low fidelity wireframes so that I could visualize all the abstract ideas and
+                   concepts that had been outlined so far. Several iterations were made to the initial sketches in order to improve
+                   the design. Once the sketches were finalized , I quickly converted them to digital wireframes and also
+                   created a prototype that was used for the first round of usability testing.</p>
+                 <h3 class="center-align center-align-exception">Test Result and Iterations</h3>
+                 <p class="paragraph-holder paragraph-holder-center bottom-padding-para">1. When users were signing up for an account,
+                     they were quite confused to see a prefilled dashboard.
+                     So to reduce this confusion I decided to provide an empty dasboard instead of a prefilled one.</p>
+              </div>
+                 <img class="create-seperation" src="pictures/wireframe1.png" alt="Wireframe showing the initial dashboard containing files and
+                     folders as well as another wireframe showing iterated dashboard which is empty.">
+                 <p class="paragraph-holder paragraph-holder-center bottom-padding-para">2. For the task where users had to share a folder,
+                    most of the test participants found it difficult to
+                    identify where the share icon was, so I decided to change the share icon to make it more visible.</p>
+                 <img src="pictures/wireframe2.png" alt="Two wireframes showing the initial position of the share icon and the
+                 new/changed position of the share icon.">
              </div>
            </section>
 
-           <!--Usability Testing-->
+           <!--Brand Story-->
 
-           <section class="usability-testing-round1">
-             <div class="wrapper">
-               <h2 class="process-steps">Usability Testing (Round 1)</h2>
-                 <ol class="indent">
-                   <li><span style="color:#9F05FA">Task 1:</span> Sign up for an account</li>
-                   <li><span style="color:#9F05FA">Task 2:</span> Add a piece of content:
-                     <ul class="indent2">
-                       <li>Upload a photo</li>
-                     </ul>
-                  </li>
-                   <li><span style="color:#9F05FA">Task 3:</span> Organize content: Steps:
-                     <ul class="indent2">
-                       <li>Create a new folder </li>
-                       <li>Open this newly created folder and upload a photo to it</li>
-                       <li>Create another folder within this folder</li>
-                     </ul>
-                  </li>
-                   <li><span style="color:#9F05FA">Task 4:</span> Share the folder and photo with somebody</li>
-                   <li><span style="color:#9F05FA">Task 5:</span> Search for a document</li>
-                 </ol>
-
-                 <h3>My Findings from usability testing-Round1 were:</h3>
-                   <ol class="indent">
-                     <li>After signing up into the account users were confused because they expected to see an empty dashboard and not a
-                     prefilled one because they were signing up for the first time and were not returning users.</li>
-                     <li>For the task were users had to upload a photo, though they were able to complete the task without any confusion,
-                     after completing the task they felt that including the names of the the files, folders, pictures etc would have helped
-                     them identify their files more easily.</li>
-                     <li> Users were not able to locate the share icon easily to share files.</li>
-                   </ol>
-
-                <h3>Iterations made to wireframes after usability testing:</h3>
-                  <p><span style="color:#9F05FA">Iteration 1:</span> Provided empty dashboard when users signed up</p>
-                    <img class="image" src="pictures/emptyDashboard.png" alt="Picture of Empty Dashboard ">
-                  <p><span style="color:#9F05FA">Iteration 2:</span> Named pictures,files and folders</p>
-                    <img class="image" src="pictures/Dashboard_iterated.png" alt="Iterated Dashboard with all files named">
-                  <p><span style="color:#9F05FA">Iteration 3:</span> Changed position of share icon</p>
-                  <img class="image" src="pictures/Share-iteration.png" alt="Iterated wireframe whit position of share icon changed">
-              </div>
-           </section>
-
-           <!--Brand Story and Logo Design-->
-
-           <section class="brand-story">
-              <div class="wrapper">
-                <div class="black-and-white-logo">
-                   <h2 class="process-steps">Brand Story & Logo Design</h2>
-                     <p>After updating my design based on the results of the usability testing, I then proceeded to work on my branding.
-                       For this I started by trying to come up with a suitable name for my product. After a lot of brainstorming I decided on the
-                       name “Your Space” for my product because this name was very simple and easy to remember and it could immediately convey the
-                       message to the users that the product was giving them “their own space” in cloud where they could backup their data and use it
-                       any way they want.</p>
-
-                     <p>Once I had decided on the name for my product, my next thought was about how I could display this name and how my logo was going to be.
-                       For that I created several sketches which I continued to iterate until I finally decided on a logo which was perfect for my product.</p>
-
-                     <img class="logo-outline" src="pictures/black_and_white_logo.png" alt="Black and White Logo">
-                </div>
-              </div>
-           </section>
-
-           <!--Color-->
-
-           <section class="color">
-             <div class="wrapper">
-               <div class="mycolor">
-                 <h2 class="process-steps">Color</h2>
-                   <p>I chose the color blue for my brand because blue is the color of trust, dependability and commitment and since the main purpose of a
-                   cloud storage service is to maintain, manage and backup users data, I wanted my brand to have a color that relates to my brand’s purpose.</p>
-                   <img class="color-palette" src="pictures/color-palette.png" alt="Color Palette">
+          <section class="section-padding bottom-padding">
+            <div class="wrapper flex-wrapper-desktop flex-wrapper-center">
+              <div class="paragraph-holder">
+                 <h2 class="process-steps">Brand Story</h2>
+                 <p>After updating my design based on the results of the usability testing, I then proceeded to work on my branding.
+                   I selected the name “Your Space” for my product mainly because this name could immediately convey the
+                   message to users that the product was giving them “their own space” in cloud. </p>
+                <p>Once I had decided on the name for my product, my next thought was about how I could display this name
+                   and how my logo was going to be. For that I created several sketches which I continued to iterate until I finally decided on a
+                   logo which was perfect for my product.</p>
+                 <img class="show-mobile image-center-mobile-tablet" src="pictures/logo-sketches-and-digital.png" alt=" Images of
+                 initial logo sketches and digital logo">
                </div>
-             </div>
-           </section>
-
-           <!--Typography-->
-
-           <section class="typography">
-               <div class="wrapper">
-                 <div class="my-typography">
-                 <h2 class="process-steps">Typography</h2>
-                   <p>I chose Helvetica Neue as my primary typeface and Open Sans as my complementary typeface because these fonts are neutral and precise and
-                     since my product can be used both for personal as well as for professional purposes I wanted my the typeface to suit both categories. </p>
-                   <img class="my-typography-image" src="pictures/Typography.png" alt="Typography">
-                 </div>
-             </div>
-           </section>
-
-           <!--High-Fidelity Mockups-->
-
-           <section class="highfid-mockups">
-             <div class="wrapper">
-               <div class="hifid-flex">
-                   <h2 class="process-steps">Preference Testing</h2>
-                   <p>With a better understanding of the design, I took to Figma to create high fidelity mockups for both phone and desktop to solidify the
-                    look and feel of the platform. I then conducted a quick preference test to test specific features of my product.</p>
-                   <p>During the preference test, my users preferred the icon of a person with a “+” sign as the share icon, they liked the button with create
-                      written on it as the create button and they liked the bell icon as the notifications icon.</p>
-                     <img class="preference-test-icons" src="pictures/icons.png" alt="Icons for preference testing">
-                </div>
-            </div>
-           </section>
-
-           <!--High Fidelity Prototype-->
-
-           <section class="high-fidelity-prototype">
-             <div class="wrapper">
-               <div class="final-prototype-flex">
-                   <h2 class="process-steps"> Usability Testing and Visual Design</h2>
-                   <p>Prior to updating my design based on the results of the preference test, I did the second round of usability testing.
-                     I also had the design reviewd by my peers in the Thinkful community comprised of designers and developers across a variety
-                     of experience levels. One important feedback I received was regarding my logo design. Users felt that my logo would look much
-                     better without its black outline. Other feebacks that I received varied from things such as adjusting the size and shapes of buttons,
-                     improving the clarity of icons,  as well as tweaking my design to give it a more trendy look.</p>
-                  <img class="old-and-new-logos" src="pictures/initial_and_final_logo.png" alt="Initial and Final Logo">
-                     <p>After spending several hours and days producing the reviewed design, the feedback was a breath of fresh air and resulted in my  “A HA” moments.
-                       This process helped me understand the importance of constantly having another set of eyes review my work and receiving critique and feedback to
-                       produce the best results.</p>
-                     <img class="final-landing-page" src="pictures/Landing_Final.png" alt="Final Landing Page">
-                     <a href="https://www.figma.com/proto/6jFL60EaU1ScIII5zreZ25/Desktop-V4?node-id=162%3A11&viewport=2894%2C4894%2C0.5&scaling=min-zoom"
-                     target="_blank" class="case-study-button">VIEW PROTOTYPE</a>
+               <div class="user-flow-flex image-padding-left">
+                 <img class=" show-desktop" src="pictures/logo-sketches-and-digital.png" alt="Images of
+                 initial logo sketches and digital logo">
                </div>
             </div>
           </section>
 
+        <!--Color-->
+
+          <section class="color section-padding">
+            <div class="wrapper flex-wrapper-desktop flex-wrapper-center">
+               <img class="image-padding-right show-desktop" src="pictures/color-palette.png" alt="Image of color palette">
+              <div>
+               <h2 class="process-steps color-center">Color</h2>
+                <p>I chose the color blue for my brand because blue is a color associated with trust, dependability and commitment
+                    and since the main purpose of a cloud storage service is to maintain,
+                    manage and backup users data, I wanted my brand to have a color that relates to my brand’s purpose.</p>
+                <img class="show-mobile" src="pictures/color-palette.png" alt="Image of color-palette">
+             </div>
+           </div>
+          </section>
+
+        <!--Typography-->
+
+          <section class="typography section-padding bottom-padding">
+            <div class="wrapper flex-wrapper-desktop flex-wrapper-center">
+               <img class="image-padding-right show-desktop" src="pictures/Typography.png" alt="Image of typography used">
+              <div>
+                 <h2 class="process-steps typography-center">Typography</h2>
+                  <p>I chose Helvetica Neue and Open Sans as my typefaces
+                    because these fonts are neutral and precise. Moreover since my product can be used for both personal as well as professional
+                    purposes I wanted my the typeface to suit both categories.</p>
+                  <img class="show-mobile" src="pictures/Typography.png" alt="Image of typography used">
+             </div>
+           </div>
+          </section>
+
+        <!--High-Fidelity Mockups-->
+
+          <section class="highfid-mockups section-padding bottom-padding">
+            <div class="wrapper">
+             <div class="paragraph-holder paragraph-holder-center">
+              <h2 class="process-steps center-align-exception">Hi-Fid Mockups And Preference Testing</h2>
+                <p class="bottom-padding-para">With a better understanding of the design, I took to Figma to
+                  create high fidelity mockups for both phone and desktop to solidify the
+                  look and feel of the platform. I then conducted a quick preference test to test specific features
+                  of my product.</p>
+                <h3 class="center-align center-align-exception big-font">Preference Test Results</h3>
+                <p class="paragraph-holder paragraph-holder-center bottom-padding-para">For the signup screen,
+                  <span style="font-size:1.5rem;font-weight:bold">85%</span> participants chose <span style="font-size:1.5rem;
+                  font-weight:bold">Option B</span></p>
+             </div>
+                <img class="create-seperation" src="pictures/signup.png" alt="Image showing Option A and Option B for how the Signup page could be displayed">
+                <p class="paragraph-holder paragraph-holder-center bottom-padding-para"> For the screen that showed how confirmation messages
+                   shoud be displayed,  <span style="font-size:1.5rem;font-weight:bold">95%</span> of my participants chose
+                <span style="font-size:1.5rem;font-weight:bold">Option B</span></p>
+                <img class="" src="pictures/confirmation.png" alt="Image showing Option A and Option B for how the Share confirmation popup can be displayed">
+            </div>
+          </section>
+
+           <!--Usability Testing and Visual Design-->
+
+           <section class="section-padding">
+             <div class="wrapper flex-wrapper-desktop flex-wrapper-center">
+                 <div class="paragraph-holder">
+                   <h2 class="process-steps"> Usability Testing and Visual Design</h2>
+                   <p>Prior to updating my design based on the results of the preference test, I created a prototype using the
+                      figma tool after which I conducted
+                      the second round of usability testing. I also had the design reviewed by my peers in the Thinkful
+                      community comprised of designers and developers across a varietyof experience levels.</p>
+                     <h3>Feedback on Logo</h3>
+                     <p>One very important feedback I received from senior designers was regarding my logo design. They felt that my logo would look much
+                     better without its black outline. Other feebacks which I received from my usability test paticipants as well as senior designers and peers
+                     varied from things such as adjusting the size and shapes of buttons,
+                     improving the clarity of icons,  as well as tweaking my design to give it a more trendy look.</p>
+                  </div>
+                  <img class="old-and-new-logos image-padding-left bottom-padding-girl" src="pictures/initial_and_final_logo.png" alt="Image
+                  showing the Initial and Final Your Space Logo">
+             </div>
+           </section>
+
+           <!--Final Design-->
+
+           <section class="last section-padding bottom-padding">
+             <div class="wrapper flex-wrapper-desktop flex-wrapper-center">
+               <img class="image-padding-right show-desktop" src="pictures/Landing_Final.png" alt="Image showing the two phone screens :
+               a) Empty desktop view b) Screen that opens when the burger menu is clicked.">
+               <div>
+                 <h2 class="process-steps user-stories-center">Final Design</h2>
+               <p class="paragraph-holder paragraph-holder-center">After spending several hours and days producing the reviewed design, the feedback was a breath of fresh air and resulted in my  “A HA” moments.
+                 This process helped me understand the importance of constantly having another set of eyes review my work and receiving critique and feedback to
+                 produce the best results.</p>
+               <img class="show-mobile image-center-mobile-tablet" src="pictures/Landing_Final.png" alt="Image showing the two phone screens :
+               a) Empty desktop view b) Screen that opens when the burger menu is clicked.">
+               <a href="https://www.figma.com/proto/6jFL60EaU1ScIII5zreZ25/Desktop-V4?node-id=162%3A11&viewport=2894%2C4894%2C0.5&scaling=min-zoom"
+               target="_blank" class="case-study-button">VIEW PROTOTYPE</a>
+              </div>
+             </div>
+           </section>
       </div>
-     </div>
     </section> <!--End of Process section-->
 
-    <!--Takeaways-->
+        <!--Takeaways-->
 
-       <section class="takeaways">
+       <section class="takeaways bottom-padding">
          <div class="wrapper">
-           <div class="takeaway-flex">
+           <div class="takeaway-flex paragraph-holder paragraph-holder-center">
              <h2 class="process">Takeaways</h2>
              <p>Overall, I feel that following the design process helped me stay very focused and also improved the efficiency of my work. </p>
              <p>My biggest challenge here was to come up with a suitable layout for my design. Laying out the content in a way that could display
                all the features in a neat and organized way, at the same time making sure the screens are not getting too cluttered was tricky.</p>
              <p>My second challenge was deciding on my brand color , logo and typefaces. Coming up with a suitable name and symbol that would not
                  only represent my brand but that would also relate to my brands purpose was a big challenge.</p>
-             <p>The usability testing helped me realize that some of the features ( Eg: big size of add button, certain text representations, etc.,) that
+             <p>The usability testing helped me realize that some of the features like big size of add button, certain text representations, etc., that
                 I had added in my design thinking it would make my design more user friendly, actually did not have the desired effect on real users.
                 But instead several suggestions provided to me by my users actually helped me improve my design.</p>
-             <a href="#" class="case-study-button">BACK TO TOP</a>
+             <a href="#"><img class="back-to-top" src="pictures/up-arrow.png" alt="Arrow icon that takes you to the top of the page"/></a>
            </div>
          </div>
        </section>
@@ -340,7 +338,7 @@
        <footer class="footer">
          <div class="wrapper footer-flex">
            <h2 class="footer-text">Let's get acquainted</h2>
-            <a href="mailto:ajunaprathap@gmail.com" target="_blank" class="footer-button">CONTACT ME</a>
+            <a href="contact.html" class="footer-button">CONTACT ME</a>
 
            <div class="bottom-footer">
              <ul class="icons">
@@ -352,6 +350,7 @@
          </div>
        </footer>
      </div>
+
     <!-- Javascript-->
     <script src="app.js"></script>
 

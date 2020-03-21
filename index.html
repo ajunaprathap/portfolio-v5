@@ -4,26 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ajuna Vadakkumpuram Prathap UI/UX Designer </title>
+    <link rel="shortcut icon" type="image/png" href="pictures/favicon.png" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
     <div class="container">
+
   <!-- Navigation Bar -->
    <nav>
     <div class="wrapper">
-      <a href="index.html"><img class="my-logo" src="pictures/logo.png" alt="logo" /></a>
+      <a href="index.html"><img class="my-logo" src="pictures/logo.png" alt="Image of Your Space logo" /></a>
 
       <ul class="nav-links">
-         <li><a href="aboutme.html">About</a></li>
          <li><a href="#yourspace">Work</a></li>
+         <li><a href="aboutme.html">About</a></li>
          <li><a href="pictures/myresume.pdf" target="_blank">Resume</a></li>
-         <li><a href="mailto:ajunaprathap@gmail.com" target="_blank">Contact</a></li>
+         <li><a href="contact.html">Contact</a></li>
       </ul>
 
-      <!--<img class="burger" src="pictures/burger.svg" alt="hamburher menu" />-->
       <div class="burger">
         <div class="line1"></div>
         <div class="line2"></div>
@@ -32,41 +33,38 @@
     </div>
    </nav>
 
- <!-- introduction section-->
+ <!-- Introduction section-->
 
-   <header class="introduction">
-    <div class="wrapper">
-      <div class="content">
-        <div class="half">
-          <h1 class="h1-merriweather">Hi! I'm Ajuna</h1>
-          <h2 class="h2-merriweather">
-            I'm a UI/UX Designer from Pennsylvania. I seek to understand what
-            users need and view the world from their perspective.
-          </h2>
-          <div class="button-container">
-            <a href="#yourspace" class="see-my-work">SEE MY WORK</a>
-          </div>
-        </div>
-        <div class="half">
-          <img class="illustration" src="pictures/illustration.png" alt="Illustration"/>
-        </div>
-      </div>
-      <div class="down-arrow">
-         <img src="pictures/downarrow.png" alt="Down Arrow" />
-      </div>
-    </div>
-  </header>
+  <header class="introduction section-padding">
+   <div class="wrapper flex-wrapper-desktop flex-wrapper-center">
+     <div class="paragraph-holder">
+        <h1 class="h1-merriweather">Hi! I'm Ajuna</h1>
+        <h2 class="h2-merriweather">
+           I'm a UI/UX Designer from Pennsylvania. I seek to understand what
+           users need and view the world from their perspective.</h2>
+        <img class=" image-padding-left show-mobile bottom-padding-girl image-center-mobile-tablet"
+        src="pictures/illustration.png" alt="Illustration of a girl standing in deep thought"/>
+        <a href="#yourspace" class="see-my-work">SEE MY WORK</a>
+     </div>
+        <img class=" image-padding-left show-desktop image-center-mobile-tablet"
+        src="pictures/illustration.png" alt="Illustration of a girl standing in deep thought"/>
+   </div>
+   <div class="down-arrow">
+        <img src="pictures/downarrow.png" alt="Down Arrow" />
+  </div>
+ </header>
 
 <!-- From here display projects - Project 1 -->
 
   <section class="yourspace" id="yourspace">
-    <div class="wrapper your-space-flex">
+    <div class="wrapper your-space-flex section-padding">
         <div class="onehalf">
-          <img class="project-pic" src="pictures/desktoppic.png" alt="Desktop Picture">
+          <img class="project-pic" src="pictures/desktoppic.png" alt="Image of desktop
+          screen showing files and folders organized within it">
         </div>
 
         <div class="otherhalf">
-          <h2 class="heading">Your Space</h2>
+          <h2 class="heading add-padding-top">Your Space</h2>
            <h2 class="role">Role : Research, Design, Prototype</h2>
            <h2 class="role">Tools : Figma, InVision, Draw.io, Xtensio</h2>
             <p class="homepage-para">
@@ -83,7 +81,7 @@
   <footer class="footer">
     <div class="wrapper footer-flex">
       <h2 class="footer-text">Let's get acquainted</h2>
-       <a href="mailto:ajunaprathap@gmail.com" target="_blank" class="footer-button">CONTACT ME</a>
+       <a href="contact.html" class="footer-button">CONTACT ME</a>
 
       <div class="bottom-footer">
         <ul class="icons">
@@ -95,17 +93,18 @@
     </div>
   </footer>
  </div>
-    <!-- Javascript -->
-    <script src="app.js"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158830178-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<!-- Javascript -->
+  <script src="app.js"></script>
 
-      gtag('config', 'UA-158830178-1');
-    </script>
-  </body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158830178-1"></script>
+   <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158830178-1');
+  </script>
+ </body>
 </html>
