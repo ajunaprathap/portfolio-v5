@@ -768,10 +768,7 @@ nav .wrapper {
   margin-bottom: 2rem;
   text-align: center;
 }
-.github-logo, .linkedin-logo {
-  width: 30px;
-  margin : 5px;
-}
+
 .footer-button {
   display: block;
   font-family: 'Open Sans', sans-serif;
@@ -800,6 +797,11 @@ nav .wrapper {
   justify-content: space-between;
   width: 100%;
 }
+.github-logo, .linkedin-logo {
+  width: 30px;
+  margin : 5px;
+}
+
 ul.icons{
   display: flex;
   list-style: none;
