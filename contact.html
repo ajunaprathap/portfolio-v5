@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ajuna Vadakkumpuram Prathap UI/UX Designer - Contact Me </title>
+    <link rel="shortcut icon" type="image/png" href="pictures/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body class="contact">
+    <div class="container">
+
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="wrapper">
+        <a href="index.html"><img class="my-logo" src="pictures/logo.png" alt="Image of Your Space logo" /></a>
+
+        <ul class="nav-links">
+          <li><a href="index.html#yourspace">Work</a></li>
+          <li><a href="aboutme.html" >About</a></li>
+          <li><a href="pictures/myresume.pdf" target="_blank">Resume</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+     </div>
+    </nav>
+
+  <!--Contact Form -->
+
+   <main>
+     <section class="section-padding">
+       <div class="wrapper flex-wrapper-desktop flex-wrapper-center">
+         <div class="paragraph-holder">
+           <img class="image-padding-left show-mobile image-center-mobile-tablet add-padding-top" src="pictures/myPhoto1.png" alt="A photograph of me sitting">
+          <h2 class="process-steps">Hello! Let's Chat</h2>
+          <form action="https://formspree.io/xjvoapgj"
+             method="POST">
+          <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="fullname" placeholder="Your full name..">
+         <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+         <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <input class="case-study-button" type="submit" value="SUBMIT">
+          </div>
+            <img class="image-padding-left show-desktop" src="pictures/myPhoto1.png" alt="A photograph of me sitting">
+      </div>
+     </section>
+  </main>
+
+    <!-- Javascript -->
+    <script src="app.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158830178-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-158830178-1');
+    </script>
+  </body>
+</html>
