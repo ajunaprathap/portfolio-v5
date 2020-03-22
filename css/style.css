@@ -797,17 +797,17 @@ nav .wrapper {
   justify-content: space-between;
   width: 100%;
 }
-.github-logo, .linkedin-logo {
-  width: 30px;
-  margin : 5px;
-}
+ .github-logo, .linkedin-logo{
+    width: 40px;
+    margin : 5px;
+  }
 
-ul.icons{
-  display: flex;
-  list-style: none;
-}
-ul.icons li {
-  padding-right: 1rem;
+@media (min-width: 600px) {
+ .github-logo, .linkedin-logo{
+    width: 30px;
+    margin : 5px;
+  }
+
 }
 .copyright {
   margin-left: 1rem;
@@ -820,6 +820,14 @@ ul.icons li {
     font-size: 0.875rem;
   }
 }
+ul.icons{
+  display: flex;
+  list-style: none;
+}
+ul.icons li {
+  padding-right: 1rem;
+}
+
 .no-scroll {
   width: 100vw;
   height: 100vh;
