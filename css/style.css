@@ -115,7 +115,7 @@ body {
 
 /********** PROJECT SECTION *************/
 
-.yourspace, .opening-page, .takeaways, .my-info {
+.yourspace, .choiz, .opening-page, .takeaways, .my-info {
   background-image: url('../pictures/purpleshade.png');
   background-repeat: no-repeat;
   background-position: bottom;
@@ -123,7 +123,7 @@ body {
 }
 /* DESKTOP */
 @media (min-width: 800px) {
-  .your-space-flex {
+  .your-space-flex, .choiz-flex {
     display:flex;
     flex-direction: row;
   }
@@ -351,7 +351,7 @@ img.phone {
 
 /* User Survey */
 
-.user-survey {
+.user-survey, .user-survey-2 {
   background: none;
 }
 
@@ -370,6 +370,11 @@ img.phone {
     background: url('../pictures/illustrationpic.png') left 50% no-repeat;
     background-size: 45% auto;
   }
+  .user-survey-2 {
+    background: url('../pictures/new-illustration-pic.png') left 50% no-repeat;
+    background-size: 45% auto;
+  }
+
   .flex-wrapper-desktop {
     display: flex;
   }
@@ -382,6 +387,10 @@ img.phone {
   .user-survey .wrapper > div {
     width: 50%;
   }
+  .user-survey-2 .wrapper > div {
+    width: 50%;
+  }
+
 }
 .quote {
   color: #9F05FA;
@@ -404,6 +413,7 @@ h3 {
   font-size: 1rem;
   font-weight: bold;
   margin: 1.5rem 0;
+  text-decoration: underline;
   }
 .indent {
   line-height: 1.75rem;
@@ -509,7 +519,7 @@ img.image {
   justify-content: center;
   align-items: flex-start;
 }
-img.userflow {
+img.userflow, img.logo-design {
   padding: 20px;
 }
 .flex-wrapper-center {
@@ -567,13 +577,13 @@ h4{
   line-height: 1.75rem;
   margin-left: 5rem;
 }
-.old-and-new-logos  {
+.old-and-new-logos, .hifi-iterations  {
   width: 100%;
   align-self: center;
 }
 /* DESKTOP */
 @media (min-width: 800px) {
-  .old-and-new-logos {
+  .old-and-new-logos, .hifi-iterations {
     padding-bottom: 0;
     width: 60%;
   }
@@ -582,7 +592,7 @@ h4{
   display:block;
   margin: 0 auto;
 }
-.color-palette, .my-typography-image, .old-and-new-logos,.logo-outline {
+.color-palette, .my-typography-image, .old-and-new-logos, .hifi-iterations, .logo-outline {
   margin: 1.5rem 0;
 }
 .final-landing-page {
@@ -833,4 +843,8 @@ ul.icons li {
   height: 100vh;
   overflow: hidden;
   position: relative;
+}
+.pic-padding {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
