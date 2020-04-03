@@ -399,8 +399,11 @@ img.phone {
 .survey-highlights {
   background-color: #F7F2FA;
   padding: 2.5rem;
-  line-height: 2.5rem;
+  line-height: 1.8rem;
   }
+  .survey-highlights li{
+    padding-bottom: 25px;
+    }
 
 .process-steps, .myintro {
   color:  #9f05fa;
