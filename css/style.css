@@ -209,6 +209,23 @@ body {
 
 /* Overview Section*/
 
+.heading1, .heading2 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+.heading1 {
+  padding-top: 2rem;
+  font-size: 2.5rem
+}
+/* DESKTOP */
+@media (min-width: 800px) {
+  .heading1 {
+    font-size: 3rem;
+  }
+}
+
+
 .overview {
   display: flex;
   flex-direction: column;
@@ -479,10 +496,14 @@ img.image {
     text-align: center;
   }
 }
-.button-center {
+.button-center{
   max-width: 350px;
   margin: 0 auto;
 }
+.button-center2 {
+  margin: 0 auto;
+}
+
 .bottom-padding {
   padding-bottom: 4rem;
 }
@@ -846,10 +867,13 @@ ul.icons li {
   overflow: hidden;
   position: relative;
 }
-.pic-padding {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+@media (min-width: 800px) {
+  .pic-padding {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
+
 
 /* For Your Space redesign */
 
