@@ -115,7 +115,7 @@ body {
 
 /********** PROJECT SECTION *************/
 
-.yourspace, .choiz, .opening-page, .takeaways, .my-info {
+.yourspace, .choiz, .dazzle, .opening-page, .takeaways, .my-info {
   background-image: url('../pictures/purpleshade.png');
   background-repeat: no-repeat;
   background-position: bottom;
@@ -249,6 +249,7 @@ body {
   margin-top: 1rem;
   align-self: center;
 }
+
 /* DESKTOP */
 @media (min-width: 800px) {
   .desktop {
@@ -368,7 +369,7 @@ img.phone {
 
 /* User Survey */
 
-.user-survey, .user-survey-2 {
+.user-survey, .user-survey-2, .user-survey-3 {
   background: none;
 }
 
@@ -389,6 +390,11 @@ img.phone {
   }
   .user-survey-2 {
     background: url('../pictures/new-illustration-pic.png') left 50% no-repeat;
+    background-size: 45% auto;
+  }
+
+  .user-survey-3 {
+    background: url('../pictures/user-interview.png') left 50% no-repeat;
     background-size: 45% auto;
   }
 
@@ -507,6 +513,9 @@ img.image {
 .bottom-padding {
   padding-bottom: 4rem;
 }
+.image-padding-bottom {
+  padding-bottom: 2rem;
+}
 .bottom-padding-girl, .bottom-padding-para {
   padding-bottom: 2rem;
 }
@@ -521,7 +530,7 @@ img.image {
 }
 /* User Stories */
 
-.user-stories,.color,.typography, .last {
+.user-stories,.color,.typography, .last , .sketches {
   background-color: #F7F2FA;
 }
 .image-padding-right {
@@ -529,7 +538,7 @@ img.image {
 }
 /* DESKTOP */
 @media (min-width: 800px) {
-  .user-stories-center, .color-center, .typography-center {
+  .user-stories-center, .color-center, .typography-center, .sketches-center, .final-design-center {
     margin-top: 0;
     margin-bottom: 2rem;
   }
