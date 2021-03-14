@@ -115,7 +115,7 @@ body {
 
 /********** PROJECT SECTION *************/
 
-.yourspace, .choiz, .dazzle, .opening-page, .takeaways, .my-info {
+.yourspace, .choiz, .dazzle, .opening-page, .takeaways, .my-info, .herose {
   background-image: url('../pictures/purpleshade.png');
   background-repeat: no-repeat;
   background-position: bottom;
@@ -123,7 +123,7 @@ body {
 }
 /* DESKTOP */
 @media (min-width: 800px) {
-  .your-space-flex, .choiz-flex {
+  .your-space-flex, .choiz-flex, .herose-flex {
     display:flex;
     flex-direction: row;
   }
@@ -369,7 +369,7 @@ img.phone {
 
 /* User Survey */
 
-.user-survey, .user-survey-2, .user-survey-3 {
+.user-survey, .user-survey-2, .user-survey-3, .user-survey-4 {
   background: none;
 }
 
@@ -395,6 +395,10 @@ img.phone {
 
   .user-survey-3 {
     background: url('../pictures/user-interview.png') left 50% no-repeat;
+    background-size: 45% auto;
+  }
+  .user-survey-4 {
+    background: url('../pictures/user-interview4.svg') left 50% no-repeat;
     background-size: 45% auto;
   }
 
@@ -450,7 +454,7 @@ h3 {
 
 /* User Personas */
 
-.user-personas, .bio {
+.user-personas, .bio, .competitive-analysis {
   background-color: #F7F2FA;
 }
 .bio {
@@ -551,7 +555,7 @@ img.image {
   justify-content: center;
   align-items: flex-start;
 }
-img.userflow, img.logo-design {
+img.userflow, img.logo-design, img.finaltesting {
   padding: 20px;
 }
 .flex-wrapper-center {
@@ -560,7 +564,7 @@ img.userflow, img.logo-design {
 
 /* Wireframes */
 
-.wireframes, .final-design {
+.wireframes, .final-design, .solution {
   background-color: #F7F2FA;
 }
 .add-margin {
@@ -588,6 +592,7 @@ img.userflow, img.logo-design {
 .highfid-mockups h2.process-steps {
   color: #ffffff;
 }
+
 .add-padding-top,.add-padding-top-for-all  {
   padding-top: 2rem;
 }
